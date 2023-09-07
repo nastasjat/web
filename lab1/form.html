@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тракало Анастасія Андріївна - КН-31 - Варіант №11</title>
+</head>
+
+<body>
+    <h2>Лабораторна робота №1</h2>
+    <h2>Виконала Тракало Анастасія Андріївна, група КН-31, Варіант №11</h2>
+    <a href="index.html">Повернутися на головну</a>
+    <h3>Завдання</h3>
+    <p>
+        Необхідно розробити форму для реєстрації учасника художнього форуму. Необхідно заповнити наступні данні:
+    </p>
+    <ul>
+        <li>дані про реєстрацію, включають логін, пароль, електрону адресу, улюбленого художника (обирається зі списку);</li>
+        <li>особисті дані, включають улюблений колір, посилання на веб-сторінку з власним портфоліо, 
+            улюблений жанр у живописі (обирається зі списку), докладний опис власних художніх вподобань.</li>
+    </ul>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Реєстрація</legend>
+            <label>Логін
+                <input id="login" type="text">
+            </label>
+            <label>Пароль
+                <input id="password" type="password">
+            </label>
+            <label>Електронна адреса
+                <input id="email" type="email">
+            </label>
+            <label>Улюблений художник
+                <select>
+                    <option>Вінсент Ван Гог</option>
+                    <option>Леонардо да Вінчі</option>
+                    <option>Пабло Пікассо</option>
+                    <option>Рафаель Санті</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Особисті дані</legend>
+            <label>Улюблений колір
+                <input id="color" type="color">
+            </label>
+            <label>Посилання на власне портфоліо
+                <input id="portfolio" type="url">
+            </label>
+            <label>Улюблений жанр живопису
+                <select>
+                    <option>Портрет</option>
+                    <option>Пейзаж</option>
+                    <option>Натюрморт</option>
+                    <option>Історичний</option>
+                    <option>Побутовий</option>
+                    <option>Анімалістичний</option>
+                    <option>Міфологія</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>Художні вподобання
+                <textarea rows="10" cols="100"></textarea>
+            </label>
+            <br>
+            <br>
+            <button type="submit">Відправити</button>
+        </fieldset>
+    </form>   
+</body>
+</html>
