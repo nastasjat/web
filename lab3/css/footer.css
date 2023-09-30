@@ -1,0 +1,42 @@
+/* .footer {
+    height: var(--height-footer);
+}
+
+.footer img {
+    width: 42px;
+    height: 35px;
+    position: absolute;
+    left: 640px;
+    margin-top: 26px;
+}
+
+.twitter {
+    text-align: center;
+    padding-top: 30px;
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-p);
+    color: var(--color-dark-chocolate);
+    text-decoration: underline;
+} */
+
+.footer {
+    height: var(--height-footer);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer img {
+    width: 42px;
+    height: 35px;
+    display: inline-block;
+    /* vertically align the image with the text */
+    vertical-align: middle;
+}
+
+.twitter {
+    display: inline-block;
+    font-family: var(--font-family-text);
+    font-size: var(--font-size-p);
+    color: var(--color-dark-chocolate);
+    text-decoration: underline;
+}
