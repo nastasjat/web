@@ -1,0 +1,32 @@
+.menu {
+    height: var(--height-menu);
+    width: var(--width-menu);
+    float: right;
+    /* align text to the center vertically */
+    /* set line-height equal to the height of the menu */
+    line-height: var(--height-header);
+    /* remove paddings */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    /* width of a single menu option container */
+    width: 176px;
+    /* margin between options */
+    margin-right: 10px;
+    text-align: left;
+}
+
+.menu ul li a {
+    color: var(--color-light-chocolate);
+    /* remove underlines from links */
+    text-decoration: none;
+}
+
+/* changes when you move mouse over them */
+.menu ul li a:hover {
+    color: var(--color-dark-chocolate);
+    font-size: 40px;
+}
