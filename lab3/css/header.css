@@ -1,0 +1,17 @@
+.header {
+    height: var(--height-header);
+    width: var(--width-header);
+    /* left side */
+    float: left;
+    margin-top: 17px;
+}
+
+.header_h1 {
+    /* width of a text container */
+    width: 637px;
+    font-family: var(--font-family-h);
+    font-size: var(--font-size-h1);
+    color: var(--color-light-chocolate);
+    font-weight: 800;
+    text-align: center;
+}

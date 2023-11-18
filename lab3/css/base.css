@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat&display=swap');
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/playfair/Playfair_display/static/PlayfairDisplay-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/playfair/Playfair_display/static/PlayfairDisplay-Bold.ttf');
+    font-weight: bold;
+}
+
+:root {
+    /* colors */
+    --color-beige: #FFF8EA;
+    --color-light-chocolate: #815B5B;
+    --color-dark-chocolate: #594545;
+    /* fonts */
+    --font-family-h: 'Playfair Display';
+    --font-family-text: 'Montserrat';
+    --font-size-h1: 64px;
+    --font-size-h2: 36px;
+    --font-size-p: 24px;
+    /* site size */
+    --width: 1536px;
+    --width-menu: 768px;
+    --width-header: 768px;
+    --height-header: 105px;
+    --height-menu: 105px;
+    --height-main: 800px;
+    --height-extra: 450px;
+    --height-footer: 122px;
+}
