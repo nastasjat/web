@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тракало Анастасія КН-31 - Варіант №11</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <header class="text-center d-flex flex-column mt-3 mb-4">
+            <h1>Лабораторна робота №2. Основи моделі DOM та події</h1>
+            <h2>Виконала студентка КН-31 групи Тракало Анастасія</h2>
+        </header>
+
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-fill w-100">
+                        <a class="nav-link first" href="index.html">Лабораторна робота №1</a>
+                        <a class="nav-link second active" aria-current="page" href="lab2.html">Лабораторна робота №2</a>
+                        <a class="nav-link third" href="#">Лабораторна робота №3</a>
+                        <a class="nav-link fourth" href="#">Лабораторна робота №4</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="ps-4 mt-3">
+            <h2>Завдання на лабораторну роботу</h2>
+            <p>На Вашій сторінці є поле введення. При наведенні на нього
+                мишки вивести додаткову інформацію про це поле.</p>
+            <p>Ввести No квартири (з клавіатури), No під’їзду і поверх (поля
+                вводу). У будинку 3 під‘їзди, 9 поверхів і 108 квартир.
+                Проаналізувати правильність введення даних і видати відповідне
+                повідомлення.</p>
+        </div>
+
+        <div class="ps-4 mt-3">
+            <div>
+                <input type="number" id="apartment" placeholder="Номер квартири" onmouseover="showApartmentInfo()"
+                    onmouseout="hide()">
+                <input type="number" id="entrance" placeholder="Номер під'їзду" onmouseover="showEntranceInfo()"
+                    onmouseout="hide()">
+                <input type="number" id="floor" placeholder="Номер поверху" onmouseover="showFloorInfo()"
+                    onmouseout="hide()">
+                <div id="info"></div>
+            </div>
+
+            <button type="button" class="btn btn-warning mt-3 mb-2" onclick="check()">Перевірити</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="js/lab2.js"></script>
+</body>
+
+</html>
