@@ -1,0 +1,60 @@
+.extra {
+    height: var(--height-extra);
+    /* center align the content within the container */
+    text-align: center;
+}
+
+/* .images img {
+    width: 177px;
+    height: 252px;
+    margin-top: 70px;
+}
+
+.img-1 {
+    position: absolute;
+    left: 166px;
+}
+
+.img-2 {
+    position: absolute;
+    left: 508px;
+}
+
+.img-3 {
+    position: absolute;
+    left: 850px;
+}
+
+.img-4 {
+    position: absolute;
+    left: 1190px;
+} */
+
+.images {
+    /* Remove whitespace between inline-block elements */
+    font-size: 0;
+}
+
+.images img {
+    width: 177px;
+    height: 252px;
+    margin-top: 70px;
+    display: inline-block;
+}
+
+.img-1 {
+    margin-right: 166px;
+}
+
+.img-2 {
+    margin-right: 166px;
+}
+
+.img-3 {
+    margin-right: 166px;
+}
+
+.images a:hover img {
+    /* enlarge the image on hover */
+    transform: scale(1.1);
+}
