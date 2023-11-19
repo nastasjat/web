@@ -1,0 +1,31 @@
+body {
+    background-image: url('../img/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #5b7c99;
+}
+
+.styled-table tr:nth-child(odd) {
+    background-color: #ff8742;
+}
+
+@media (max-width: 600px) {
+    body {
+        height: 150vh;
+    }
+}
