@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тракало Анастасія КН-31 - Варіант №11</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <header class="text-center d-flex flex-column mt-3 mb-4">
+            <h1>Лабораторна робота №3. Модель DOM</h1>
+            <h2>Виконала студентка КН-31 групи Тракало Анастасія</h2>
+        </header>
+
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-fill w-100">
+                        <a class="nav-link first" href="index.html">Лабораторна робота №1</a>
+                        <a class="nav-link second" href="lab2.html">Лабораторна робота №2</a>
+                        <a class="nav-link third active" aria-current="page" href="lab3.html">Лабораторна робота №3</a>
+                        <a class="nav-link fourth" href="#">Лабораторна робота №4</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="ps-4 mt-3">
+            <h2>Завдання на лабораторну роботу</h2>
+            <h4>Завдання 1:</h4>
+            <p>На сторінці є два блоки div, які містять текст. Обійдіть всі блоки div і
+                обріжте текст в них таким чином, щоб він став довжиною 10 символів. В кінець
+                обрізаного тексту додайте три крапки.</p>
+            <h4>Завдання 2:</h4>
+            <p>Дана таблиця з числами. При натисканні на кнопку знайдіть комірку, в
+                якій зберігається максимальне число, і зробіть її фон червоним.</p>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="div-with-text ms-4">
+                    Give peace a chance.
+                    Let the fear you have fall away
+                </div>
+                <div class="div-with-text ms-4">
+                    I've got my eye on you.
+                    I've got my eye on you
+                </div>
+                <button type="button" class="btn btn-warning ms-4 mt-3" onclick="trim()">Обрізати</button>
+            </div>
+            <div class="col-md-6">
+                <table class="ms-4 mt-3 styled-table">
+                    <tr>
+                        <td>5</td>
+                        <td>8</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td>49</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>4</td>
+                        <td>52</td>
+                    </tr>
+                </table>
+                <button type="button" class="btn btn-warning ms-4 mt-3 mb-2" onclick="max()">Максимальне</button>
+            </div>
+        </div>
+        <script src="scripts/lab3.js"></script>
+</body>
+
+</html>
